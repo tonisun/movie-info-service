@@ -9,10 +9,10 @@ Java Spring Boot Microservice by ToniSun
 
 
 ### ```@Table("movie")``` Movie Info Service
-| Java Field | Java Type | DB Field |      DB Type | Value   | Description         |
-|:-----------|:----------|---------:|-------------:|:--------|:--------------------|
-| id         | Long      |       id |   BigDecimal | 1 - ... | The id from a Movie |            
-| title      | String    |    title | varchar(256) | [aA-zZ] | Title of a Movie    |
+| Java Field | Java Type | DB Field |      DB Type | Value    |     Description      |
+|:-----------|:----------|---------:|-------------:|:---------|:--------------------:|
+| id         | Long      |       id |   BigDecimal | 1 - ...  | The id from a Movie  |            
+| title      | String    |    title | varchar(256) | [a-zA-Z] |   Title of a Movie   |
 
 
 ### Technologies
