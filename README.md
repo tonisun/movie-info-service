@@ -2,10 +2,9 @@
 Java Spring Boot Microservice by ToniSun
 ![](src/main/resources/assets/colorful-wall_sm_tra.png)
 
-### CRUD REST Services
-* ```Port: 8081```
-* ```/``` Get all Movies
-* ```/getMovie?id=``` Get Movie by Id
+### CRUD REST Services on ```Port: 8081```
+* ```/``` Get all movies
+* ```/getMovie?id=``` Get movie by id
 
 ### ```@Table("movie")``` Movie Info Service
 | Java Field | Java Type | DB Field |      DB Type | Value   | Description         |
