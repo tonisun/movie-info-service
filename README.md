@@ -2,7 +2,7 @@
 Java Spring Boot Microservice by ToniSun
 ![](src/main/resources/assets/colorful-wall_sm_tra.png)
 
-### REST Services
+### CRUD REST Services
 * ```Port: 8081```
 * ```/``` Get all Movies
 * ```/getMovie?id=``` Get Movie by Id
