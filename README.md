@@ -7,7 +7,7 @@ Java Spring Boot Microservice by ToniSun
 * ```/``` Get all Movies
 * ```/getMovie?id=``` Get Movie by Id
 
-### Movie Info Service```@Table("movie")```
+### ```@Table("movie")``` Movie Info Service
 | Java Field | Java Type | DB Field |      DB Type | Value   | Description         |
 |:-----------|:----------|---------:|-------------:|:--------|:--------------------|
 | id         | Long      |       id |   BigDecimal | 1 - ... | The id from a Movie |            
