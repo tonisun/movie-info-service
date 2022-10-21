@@ -5,6 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Main Movie Info Services
+ * port:		8081
+ * / 			get all movies
+ * /getMovie    get movie by id
+ * /addMovie
+ * /updMovie
+ * /delMovie
+ *
  *
  * @author Toni Zeidler
  * s
@@ -12,7 +19,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MovieInfoServiceApplication {
 
-	// port 8081/movie
 	public static void main(String[] args) {
 
 		SpringApplication.run(MovieInfoServiceApplication.class, args);
