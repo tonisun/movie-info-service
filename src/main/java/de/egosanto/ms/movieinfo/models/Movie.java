@@ -1,17 +1,16 @@
 package de.egosanto.ms.movieinfo.models;
 
-
+@Entity
 public class Movie {
 
-	private String movieId;
+	private Long movieId;
 	
 	private String name;
 
 	public Movie() {
 	}
 	
-	public Movie(String movieId, String name) {
-		super();
+	public Movie(Long movieId, String name) {
 		this.movieId = movieId;
 		this.name = name;
 	}
@@ -19,14 +18,14 @@ public class Movie {
 	/**
 	 * @return the movieId
 	 */
-	public String getMovieId() {
+	public Long getMovieId() {
 		return movieId;
 	}
 
 	/**
 	 * @param movieId the movieId to set
 	 */
-	public void setMovieId(String movieId) {
+	public void setMovieId(Long movieId) {
 		this.movieId = movieId;
 	}
 
