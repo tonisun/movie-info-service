@@ -1,18 +1,24 @@
 package de.egosanto.ms.movieinfo.models;
 
+import jakarta.persistence.*;
+
 @Entity
+@Table(name = "movie")
 public class Movie {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long movieId;
-	
-	private String name;
+
+	@Column(name = "title")
+	private String title;
 
 	public Movie() {
 	}
 	
-	public Movie(Long movieId, String name) {
+	public Movie(Long movieId, String title) {
 		this.movieId = movieId;
-		this.name = name;
+		this.title = title;
 	}
 
 	/**
@@ -32,20 +38,20 @@ public class Movie {
 	/**
 	 * @return the name
 	 */
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
 	/**
-	 * @param name the name to set
+	 * @param title the name to set
 	 */
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	@Override
 	public String toString() {
-		return "Movie [movieId=" + movieId + ", name=" + name + "]";
+		return "Movie [movieId=" + movieId + ", title=" + title + "]";
 	}
 	
 	
