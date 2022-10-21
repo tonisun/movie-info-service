@@ -1,4 +1,4 @@
-# Movie Info Service movie-info-service
+# Movie Info Service ```movie-info-service```
 Java Spring Boot Microservice by ToniSun
 ![](src/main/resources/assets/colorful-wall_sm_tra.png)
 
