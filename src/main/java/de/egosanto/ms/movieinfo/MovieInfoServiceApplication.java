@@ -8,7 +8,8 @@ public class MovieInfoServiceApplication {
 
 	// port 8081/movie
 	public static void main(String[] args) {
-		SpringApplication.run(MovieInfoServiceApplication.class, args);
+
+		SpringApplication.run(MovieInfoServiceApplication.classs, args);
 	}
 
 }
