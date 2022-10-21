@@ -5,7 +5,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
+/**
+ * CRUD Services for Movie Domain
+ *
+ * @author Toni Zeidler
+ * s
+ */
 @RestController
 public class MovieController {
 
